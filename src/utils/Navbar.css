@@ -1,0 +1,109 @@
+.Header{
+    background-color:white;
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2vh 2vh;
+  position: relative; 
+  height: 8vh;
+  
+  /* background-color: #f8f9fa; */
+}
+
+
+.Navbar {
+  display: flex;
+  align-items: center;
+}
+
+.CategoryMenu {
+  position: relative;
+  cursor: pointer;
+}
+
+.Icon {
+  font-size: 30px;
+  color:   rgb(233, 148, 148);
+  margin-right: 30px;
+  cursor: pointer;
+  margin-top: 2vh;
+}
+
+.DropdownMenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.DropdownMenu a {
+  padding: 8px 12px;
+  text-decoration: none;
+  color: black;
+  padding: 20px 20px;
+  font-size: 18px;
+  margin-left: 12px;
+  color: rgb(233, 148, 148);
+  font-weight: 500;
+}
+
+.DropdownMenu a:hover {
+  background-color: #f1f1f1;
+}
+
+
+  .cinzel,h1 {
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 75px;
+    text-align: center;
+    font-style: normal;
+    color: rgb(233, 148, 148);
+  }
+
+  .AboutMeLink{
+    color:  rgb(233, 148, 148);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 10vh;
+    font-family: "Cinzel", serif;
+    margin-top: 2vh;
+    /* border: 2px solid rgb(233, 148, 148) ;
+    padding: 8px 13px;
+    border-radius: 30px; */
+  }
+
+.HeadText{
+  font-size: 40px;
+  
+  
+  margin-top: 2vh;
+}
+
+.HeadText a{
+  color:  rgb(233, 148, 148);
+  text-decoration: none;
+  font-size: 40px;
+  margin-top: 5rem;
+}
+
+.logo{
+  width: 10vh;
+  height: 10vh;
+  margin-top: 2vh;
+  border: 2px solid rgb(233, 148, 148);
+  border-radius: 50px;
+}
+
+.header-line{
+  border: 1px brown solid;
+}

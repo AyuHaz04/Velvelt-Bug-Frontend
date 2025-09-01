@@ -1,0 +1,264 @@
+/* Hide react-slick navigation dots */
+.slick-dots {
+  display: none !important;
+}
+/* Hide horizontal scrollbar for react-slick sliders (all browsers) */
+.slick-slider {
+  overflow-x: hidden !important;
+}
+.slick-track {
+  overflow-x: hidden !important;
+}
+/* Hide scrollbar for react-slick sliders */
+.slick-slider::-webkit-scrollbar,
+.slick-track::-webkit-scrollbar {
+  display: none;
+}
+.slick-slider {
+  scrollbar-width: none; /* Firefox */
+}
+#img-container-2::-webkit-scrollbar {
+  display: none;
+}
+#img-container-2 {
+  scrollbar-width: none; /* Firefox */
+}
+
+#para1{
+   margin: auto;
+   padding: 20px;
+    width: 65%;
+    font-size: 21px;
+    
+    text-align: center;
+}
+
+.options{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 5px;
+
+  margin-left: 1em;
+  list-style-type: none;
+  padding: 15px;
+}
+
+.option-list{
+  padding: 5px;
+  border: 2px solid rgb(233, 148, 148);
+  border-radius: 30px;
+  background-color:white;
+  margin: 10px;
+  text-decoration: none;
+  color:rgb(233, 148, 148);
+  font-size: 40px;
+  text-align: center;
+}
+
+.cinzel,.option-list,p {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.card-display-list{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10vh;
+  margin-right: 10vh;
+  box-shadow: 5px;
+}
+
+.option-list:hover{
+  background-color: rgb(233, 148, 148);
+  color: white;
+}
+
+.image{
+  margin: 2vh;
+}
+
+.image:hover{
+  opacity: 0.8;
+  transform: scale(1.05);
+}
+
+.li{
+  text-decoration: none;
+}
+
+h2{
+  text-align: center;
+  color: rgb(233, 148, 148);
+  font-family: "Cinzel", serif;
+  font-weight: 800;
+}
+ h1{
+  color: rgb(233, 148, 148);
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  margin-top: 2vh;
+ }
+ .scroll-container {
+  width: 100%;
+  position: relative;
+  min-height: 320px;
+  overflow: visible;
+  margin-bottom: 20px;
+}
+
+.scroll-container {
+  position: relative;
+  overflow-x: auto;
+  margin-top: 7vh;
+}
+
+.scroll-arrow {
+  cursor: pointer;
+  font-size: 2em;
+  color: #333;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.img-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  width: 100%;
+.img-container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  /* No user-select or pointer-events restrictions */
+}
+}
+
+.scroll-arrow {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+  font-size: 2rem;
+  color: #000;
+  z-index: 1;
+}
+  /* Removed free google widgets text and related comments */
+
+.options {
+  list-style-type: none;
+  padding: 0;
+}
+
+.option-list {
+  text-decoration: none;
+  color: rgb(233, 148, 148);
+}
+
+.option-list li {
+  margin: 1vh 0;
+}
+
+.img-container::-webkit-scrollbar {
+  display: none;  /* Safari and Chrome */
+}
+
+.Quote{
+  font-size: 40px;
+}
+
+.review{
+  color: rgb(233, 148, 148);
+  font-weight: 500;
+  font-size: 80px;
+  margin-top: 10vh;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  margin-bottom: 3vh;
+}
+
+.quote-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.midpic{
+  display: flex;
+  justify-content:space-between; 
+  
+}
+
+.filter-container{
+  margin-top: 5px;
+  margin-left: 5vh;
+  display: flex;
+}
+
+.filters {
+  width: 40vh;
+  height: 50vh;
+  margin-right: 2vh;
+  margin-top: 4vh;
+  padding: 5vh;
+  border: 2px solid rgb(242, 207, 207);
+  border-radius: 25px;
+}
+
+.filters button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border: none;
+  border-radius: 15px !important;
+  background-color: #f0f0f0 !important;
+  cursor: pointer;
+  text-align: left;
+}
+
+.filters button:hover {
+  background-color: rgb(233, 148, 148) !important;
+  color: whitesmoke !important;
+}
+
+.card-display-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5vh;
+}
+
+.filter-btn{
+  border: solid rgb(233, 148, 148) 1px !important;
+}
+
+.quote{
+  width: 150vh;
+  height: 50vh;
+}
+
+.pageHead{
+  color:  rgb(233, 148, 148) !important;
+  margin-left: 15vh;
+}
+
+.filters p{
+  color: rgb(239, 102, 102) !important;
+}
+
+.review-box button{
+  color: rgb(233, 148, 148) !important;
+}
