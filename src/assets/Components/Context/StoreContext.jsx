@@ -12,8 +12,10 @@ const StoreContextProvider = (props) => {
     const [desc,setDesc] = useState("");
 
     const fetchGreetingList = async () => {
-        const response = await axios.get(url + "/api/greeting/list");
-        const response_home = await axios.get(url + "/api/home/list");
+        // const response = await axios.get(url + "/api/greeting/list");
+        // const response_home = await axios.get(url + "/api/home/list");
+        const response = await axios.get(`${url}/api/greeting/list`);
+        const response_home = await axios.get(`${url}/api/home/list`);
         setGreetingList(response.data.data);
         setHomeList(response_home.data.data);
     }
