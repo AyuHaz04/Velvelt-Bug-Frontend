@@ -15,7 +15,7 @@ jobs:
             - name: Login to docker hub
               run: docker login -u ${{ secrets.DOCKER_USERNAME}} -p ${{ secrets.DOCKER_PASSWORD}}
             - name: Build Docker Image
-              run: docker build -t souvik00001/velvetbug-frontend --build-arg BASE_URL='${{ secrets.BASE_URL }}'.
+              run: docker build -t souvik00001/velvetbug-frontend --build-arg BASE_URL='${{ secrets.BASE_URL }}' .
             - name: Publish Image to docker hub
               run: docker push souvik00001/velvetbug-frontend:latest
     deploy:
