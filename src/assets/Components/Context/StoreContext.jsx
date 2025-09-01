@@ -4,7 +4,7 @@ export const StoreContext = createContext(null);
 
 const StoreContextProvider = (props) => {
 
-    const url = import.meta.env.BASE_URL; 
+    const url = import.meta.env.VITE_BASE_URL; 
     const [greeting_list, setGreetingList] = useState([]);
     const [home_list, setHomeList] = useState([]);
     const [img, setImg] = useState("");
